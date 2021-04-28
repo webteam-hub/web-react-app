@@ -1,11 +1,11 @@
 import './App.css';
+import TransaprentButton from './transparentButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Learn React
-      </header>
+        <TransaprentButton buttonTitle='Click Me' onClick= {() => (alert("Hello! I am an alert box!!"))}
+        />
     </div>
   );
 }
